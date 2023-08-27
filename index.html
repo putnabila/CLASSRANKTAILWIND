@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Rank Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="">
+        <!-- header -->
+        <div class="bg-blue-200 p-3">
+            <h1 class="text-center text-xl">Class Rank Tailwind</h1>
+        </div>
+        
+        <!-- main -->
+        <div class="flex">
+            <!-- sidebar -->
+            <div class="basis-1/4 bg-blue-100 p-3">
+                <div class="bg-slate-300 rounded-xl p-2">
+                    <h1 class="text-xl mb-2">Form Input Nilai</h1>
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="nama">Nama</label>
+                            <input class="rounded-xl p-1 block w-full" type="text" id="nama" placeholder="Masukkan nama">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nilai">Nilai</label>
+                            <input  class="rounded-xl p-1 block w-full" type="number" id="nilai" placeholder="Masukkan nilai">
+                        </div>
+                        <div class="grid gap-2">
+                            <button class="bg-blue-500 hover:bg-blue-800 p-2 rounded-xl text-white"
+                            type="submit">Submit</button>
+                        </div>
+               
+               
+                    </form>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="basis-3/4 bg-blue-50 p-3">
+                    <div class="bg-slate-300 rounded-xl p-2">
+                        <h1 class="text-xl mb-2">Nilai Siswa</h1>
+                        <table class="w-full">
+                            <thead class="">
+                                <tr class="bg-blue-50 text-black border border-gray-400">
+                                    <th class="px-6 py-3">No</th>
+                                    <th class="px-6 py-3 text-left">Nama </th>
+                                    <th class="px-6 py-3">Nilai</th>
+                                    <th class="px-6 py-3">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="bg-white border border-gray-400">
+                                    <td class="px-6 py-3">1.</td>
+                                    <td class="text-left px-6 py-2">Syavira</td>
+                                    <td>90</td>
+                                    <td class="px-6 py-3">
+                                         <button class="bg-green-300 hover:bg-green-500 p-2 rounded-xl">Edit</button>
+                                    <button class="bg-red-500 hover:bg-red-700 p-2 rounded-xl">Delete</button>
+
+                                    </td>
+                                   
+                                </tr>
+                                <tr class="bg-white border border-gray-400">
+                                    <td>2.</td>
+                                    <td class="text-left px-6 py-2">Malik</td>
+                                    <td>88</td>
+                                    <td class="px-6 py-3">
+                                        <button class="bg-green-300 hover:bg-green-500 p-2 rounded-xl">Edit</button>
+                                        <button class="bg-red-500 hover:bg-red-700 p-2 rounded-xl">Delete</button>
+
+                                    </td>
+                                </tr>
+                                <tr class="bg-white border border-gray-400">
+                                    <td>3.</td>
+                                    <td class="text-left px-6 py-2">Mumtaz</td>
+                                    <td>87</td>
+                                    <td class="px-6 py-3">
+                                        <button class="bg-green-300 hover:bg-green-500 p-2 rounded-xl">Edit</button>
+                                    <button class="bg-red-500 hover:bg-red-700 p-2 rounded-xl">Delete</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</body>
+    <!--footer-->
+<div class="footer bg-neutral-300 p-3 text-center">
+    (c) copyleft nabilahc_
+</html>
